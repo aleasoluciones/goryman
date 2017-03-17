@@ -1,9 +1,8 @@
 # Riemann client (Golang)
 
-[![GoDoc](https://godoc.org/github.com/bigdatadev/goryman?status.png)](http://godoc.org/github.com/bigdatadev/goryman)
-
 ## Introduction
 
+This client is a fork from biddatadev/goryman deleted repository
 Go client library for [Riemann](https://github.com/aphyr/riemann).
 
 This client library was inspired by [Raidman](https://github.com/amir/raidman), and [Riemann NodeJS Client](https://github.com/perezd/riemann-nodejs-client).
@@ -18,7 +17,7 @@ Features:
 To install the package for use in your own programs:
 
 ```
-go get github.com/bigdatadev/goryman
+go get github.com/aleasoluciones/goryman
 ```
 
 If you're a developer, Riemann uses [Google Protocol Buffers](https://github.com/golang/protobuf), so make sure that's installed and available on your PATH.
@@ -33,7 +32,7 @@ First we'll need to import the library:
 
 ```go
 import (
-    "github.com/bigdatadev/goryman"
+    "github.com/aleasoluciones/goryman"
 )
 ```
 
@@ -79,17 +78,13 @@ if err != nil {
 
 The Hostname and Time in events will automatically be replaced with the hostname of the server and the current time if none is specified.
 
-## Integrations
-
-Martini: [GoryMartini](http://github.com/bigdatadev/gorymartini)
-
 ## Contributing
 
 Just send me a pull request. Please take a look at the project issues and see how you can help. Here are some tips:
 - please add more tests.
 - please check your syntax.
 
-## Author
+## Original Author
 
 Christopher Gilbert
 
